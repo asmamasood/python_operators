@@ -13,23 +13,31 @@ Each file contains example code with output, written for easy understanding and 
 
 📘 Summary Table of Assignment Operator
 Operator	Name            	        Example
-=	       Assign	        	          x = 10
-+=	     Add and Assign	     	      x += 5
--=	     Subtract and Assign	 	    x -= 3
-*=	     Multiply and Assign		    x *= 2
-/=	     Divide and Assign	  	    x /= 4
-%=	     Modulus and Assign	        x %= 4
-//=	     Floor Divide and Assign		x //= 2
-**=	     Power and Assign	         	x **= 3
+| Operator | Name (English)          | Example               |     |       |
+| -------- | ----------------------- | --------------------- | --- | ----- |
+| `=`      | Assign                  | `x = 10`              |     |       |
+| `+=`     | Add and Assign          | `x += 5`              |     |       |
+| `-=`     | Subtract and Assign     | `x -= 3`              |     |       |
+| `*=`     | Multiply and Assign     | `x *= 2`              |     |       |
+| `/=`     | Divide and Assign       | `x /= 4`              |     |       |
+| `%=`     | Modulus and Assign      | `x %= 4`              |     |       |
+| `//=`    | Floor Divide and Assign | `x //= 2`             |     |       |
+| `**=`    | Power and Assign        | `x **= 3`             |     |       |
+| `&=`     | Bitwise AND and Assign  | `x &= 3`              |     |       |
+
+
 
 🧠 Explanation Summary of Comparision operator
-Operator        	Name 	       	    Example
-==	           Equal ?             	a == b
-!=	           Not Equal 	          a != b
->	             Greater Than		      a > b
-<	             Less Than          	a < b
->=	           Greater or Equal		  a >= b
-<=	           Less or Equal	     	a <= b
+| Operator | Name (English)   | Meaning (English)                            | Example  |
+| -------- | ---------------- | -------------------------------------------- | -------- |
+| `==`     | Equal To         | Checks if both values are equal              | `a == b` |
+| `!=`     | Not Equal To     | Checks if values are not equal               | `a != b` |
+| `>`      | Greater Than     | Checks if the left value is greater          | `a > b`  |
+| `<`      | Less Than        | Checks if the left value is smaller          | `a < b`  |
+| `>=`     | Greater or Equal | Checks if the left value is greater or equal | `a >= b` |
+| `<=`     | Less or Equal    | Checks if the left value is smaller or equal | `a <= b` |
+
+
 
  
  🧠Explanation summary of Logical Operator
@@ -116,6 +124,7 @@ Explanation of Each Operation
 | `x << 1` (LSH) | 110 becomes 1100    | Multiply by 2       | 12              |   |
 | `x >> 1` (RSH) | 110 becomes 011     | Divide by 2         | 3               |   |
 
-Conclusion
+Conclusion:
+
 Bitwise operators work on the binary representation of integers and are useful in low-level operations like data compression, encryption, graphics, and hardware programming. This assignment clarified how each operator behaves and how to read results in both binary and decimal.
 
